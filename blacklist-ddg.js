@@ -157,8 +157,6 @@
   ]; // insert before
 
   function hide() {
-    console.log("called hide");
-
     const elements = document.querySelectorAll(
       'ol[class="react-results--main"] > li[data-layout="organic"]',
     );
